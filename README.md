@@ -1,6 +1,6 @@
 # **Manali Airbnb Budget Analysis**
 
-## **Project Overview**
+## **Project Overview:**
 
 This project analyzes a dataset of 12,000+ Airbnb listings in Manali to identify the best budget-friendly stays (under 5,000 INR). By using custom metrics like a Refined Value Score, the analysis identifies properties that offer the highest quality relative to their price.
 
