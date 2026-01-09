@@ -4,7 +4,7 @@
 
 This project analyzes a dataset of 12,000+ Airbnb listings in Manali to identify the best budget-friendly stays (under 5,000 INR). By using custom metrics like a Refined Value Score, the analysis identifies properties that offer the highest quality relative to their price.
 
-## **Key Features**
+## **Key Features:**
 
 1. **Data Cleaning:** Handled missing values and standardized "New" listing ratings using median values.
 
@@ -12,7 +12,7 @@ This project analyzes a dataset of 12,000+ Airbnb listings in Manali to identify
 
 3. **Visual Insights:** Includes a Correlation Heatmap, Neighborhood Price Distribution (Box Plot), and a "Sweet Spot" Scatter 
 
-## **Installation & Usage**
+## **Installation & Usage:**
 
 1. **Prerequisites:** Python 3.x, Pandas, Matplotlib, Seaborn.
 
@@ -20,7 +20,7 @@ This project analyzes a dataset of 12,000+ Airbnb listings in Manali to identify
 
 3. **Data Source:** The analysis uses a scraped dataset of Manali Airbnb listings.
 
-## **Final Results**
+## **Final Results:**
 
 1. **The "Sweet Spot":** High-quality stays are most consistently found in the 700–1,500 INR price range.
 
