@@ -18,7 +18,7 @@ This project analyzes a dataset of 12,000+ Airbnb listings in Manali to identify
 
 2. **Execution:** Open Airbnb_Analysis.ipynb in Google Colab or Jupyter Notebook.
 
-3.**Data Source:** The analysis uses a scraped dataset of Manali Airbnb listings.
+3. **Data Source:** The analysis uses a scraped dataset of Manali Airbnb listings.
 
 ## **Final Results**
 
