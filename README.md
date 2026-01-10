@@ -1,29 +1,144 @@
-# **Manali Airbnb Budget Analysis**
+# Manali Airbnb Budget Analysis
 
-## **Project Overview:**
+## Business Context
 
-This project analyzes a dataset of 12,000+ Airbnb listings in Manali to identify the best budget-friendly stays (under 5,000 INR). By using custom metrics like a Refined Value Score, the analysis identifies properties that offer the highest quality relative to their price.
+Manali is one of India’s most popular tourist destinations, attracting a large number of budget-conscious travelers. With hundreds of Airbnb listings available at varying price points, travelers often struggle to identify accommodations that offer **maximum value within a limited budget**.
 
-## **Key Features:**
+This case study uses **data analysis** to simplify the decision-making process by identifying **high-quality Airbnb listings under ₹5,000 per night**.
 
-1. **Data Cleaning:** Handled missing values and standardized "New" listing ratings using median values.
+---
 
-2. **Feature Engineering:** Extracted guest counts from text data and created binary flags for key amenities like Mountain Views and Wifi.
+## Business Problem
 
-3. **Visual Insights:** Includes a Correlation Heatmap, Neighborhood Price Distribution (Box Plot), and a "Sweet Spot" Scatter 
+Travelers face difficulty in answering the following questions:
 
-## **Installation & Usage:**
+* Which Airbnb listings in Manali are truly **worth the price**?
+* Do higher prices always indicate better amenities or ratings?
+* Which neighborhoods provide the **best value for money**?
 
-1. **Prerequisites:** Python 3.x, Pandas, Matplotlib, Seaborn.
+---
 
-2. **Execution:** Open Airbnb_Analysis.ipynb in Google Colab or Jupyter Notebook.
+## Business Objective
 
-3. **Data Source:** The analysis uses a scraped dataset of Manali Airbnb listings.
+To analyze Airbnb listing data and:
 
-## **Final Results:**
+* Identify **budget-friendly, high-value accommodations**
+* Understand the relationship between **price, amenities, location, and guest ratings**
+* Provide **data-driven recommendations** for travelers
 
-1. **The "Sweet Spot":** High-quality stays are most consistently found in the 700–1,500 INR price range.
+---
 
-2. **Top Area:** The central Manali neighborhood offers the highest density of budget-friendly, high-rated options compared to surrounding areas.
+## Data Overview
+
+* Dataset: Airbnb listings data
+* Location: **Manali, India**
+* Key Variables:
+
+  * Price per night
+  * Amenities
+  * Guest ratings
+  * Neighborhood
+  * Guest capacity
+  * Availability
+
+---
+
+## Tools & Technologies
+
+* **Python**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **Jupyter Notebook**
+
+---
+
+## 🔬 Analytical Approach
+
+### 1️⃣ Data Cleaning & Preparation
+
+* Removed duplicate listings
+* Handled missing and inconsistent values
+* Converted pricing and rating columns to numeric formats
+* Filtered dataset to include only **Manali-based listings**
+
+---
+
+### 2️⃣ Feature Engineering
+
+* Extracted guest capacity from listing descriptions
+* Created binary features for key amenities:
+
+  * WiFi
+  * Kitchen
+  * Mountain View
+* Calculated amenity count to measure listing quality
+
+---
+
+### 3️⃣ Exploratory Data Analysis (EDA)
+
+* Analyzed distribution of prices across listings
+* Compared amenity availability with price and ratings
+* Identified neighborhood-level pricing patterns
+
+---
+
+### 4️⃣ Correlation & Insights
+
+* Studied correlations between:
+
+  * Price and amenities
+  * Amenities and guest ratings
+  * Location and pricing
+* Found that **amenity richness impacts ratings more strongly than price**
+
+---
+
+### 5️⃣ Budget Optimization Strategy
+
+* Filtered listings priced **≤ ₹5,000**
+* Shortlisted listings with:
+
+  * Strong guest ratings
+  * High amenity scores
+* Grouped results by **neighborhood** for actionable recommendations
+
+---
+
+## 📈 Key Findings
+
+* Multiple listings under ₹5,000 deliver **high perceived value**
+* Premium amenities significantly improve guest ratings
+* Some neighborhoods consistently outperform others in affordability and quality
+
+---
+
+## 💡 Business Impact
+
+* Enables travelers to make **data-backed accommodation choices**
+* Demonstrates how data analysis can **optimize budget decisions**
+* Provides a repeatable framework for analyzing accommodation markets
+
+---
+
+## ✅ Final Recommendation
+
+Travelers seeking value-for-money stays in Manali should prioritize:
+
+* Listings with higher amenity counts
+* Neighborhoods identified as budget-friendly
+* Listings with strong guest ratings rather than higher prices
+
+---
+
+## 🔮 Future Scope
+
+* Analyze seasonal demand and pricing fluctuations
+* Build predictive models for price optimization
+* Develop an interactive dashboard using **Power BI or Tableau**
+
+---
 
 
