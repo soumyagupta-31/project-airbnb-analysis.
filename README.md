@@ -54,7 +54,7 @@ To analyze Airbnb listing data and:
 
 ---
 
-## 🔬 Analytical Approach
+## Analytical Approach
 
 ### 1️⃣ Data Cleaning & Preparation
 
@@ -107,7 +107,7 @@ To analyze Airbnb listing data and:
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 * Multiple listings under ₹5,000 deliver **high perceived value**
 * Premium amenities significantly improve guest ratings
@@ -115,7 +115,7 @@ To analyze Airbnb listing data and:
 
 ---
 
-## 💡 Business Impact
+## Business Impact
 
 * Enables travelers to make **data-backed accommodation choices**
 * Demonstrates how data analysis can **optimize budget decisions**
@@ -123,7 +123,7 @@ To analyze Airbnb listing data and:
 
 ---
 
-## ✅ Final Recommendation
+## Final Recommendation
 
 Travelers seeking value-for-money stays in Manali should prioritize:
 
@@ -133,7 +133,7 @@ Travelers seeking value-for-money stays in Manali should prioritize:
 
 ---
 
-## 🔮 Future Scope
+## Future Scope
 
 * Analyze seasonal demand and pricing fluctuations
 * Build predictive models for price optimization
